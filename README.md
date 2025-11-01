@@ -22,9 +22,8 @@ It also contains an optional service worker for offline and caching build files.
 
 - Insert the `WebGLTemplates` folder into your `Asset` folder 
 - Edit `index.html` with your data.
-- Replace ``PUBLIC ID KEY'' with your GA ID to track visits.
-- If you want offline support and caching, enable ``Data Caching'' in WebGL Player Settings. 
-- Unity will generate a `#if USE_DATA_CACHING` block in `ServiceWorker.js` that caches build files.
+- (optional) Replace ``PUBLIC ID KEY'' with your Google Analytics ID.
+- (optional) If you want offline support and caching, enable ``Data Caching'' in WebGL Player Settings. Unity will generate a `#if USE_DATA_CACHING` block in `ServiceWorker.js` that caches build files.
 
 ## Notes
 
