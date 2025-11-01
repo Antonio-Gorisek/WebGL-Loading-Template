@@ -5,11 +5,7 @@
 This template provides a simple UI loading screen for Unity WebGL builds, including: loading bar, logo, alerts and integration with Google Analytics.
 It also contains an optional service worker for offline and caching build files.
 
-
 <img width="980" height="777" alt="CmrnE4f" src="https://github.com/user-attachments/assets/16d62c16-947b-42f1-9720-9b0a1a30cc10" />
-
-
----
 
 ## Key Features
 
@@ -22,8 +18,6 @@ It also contains an optional service worker for offline and caching build files.
 - **Service Worker:** For caching build files and offline work (if enabled in Unity WebGL Build Settings).
 - **Mobile Support:** Automatically scales the canvas for iOS and Android devices.
 
----
-
 ## How to use
 
 - Insert the `WebGLTemplates` folder into your `Asset` folder 
@@ -31,7 +25,6 @@ It also contains an optional service worker for offline and caching build files.
 - Replace ``PUBLIC ID KEY'' with your GA ID to track visits.
 - If you want offline support and caching, enable ``Data Caching'' in WebGL Player Settings. 
 - Unity will generate a `#if USE_DATA_CACHING` block in `ServiceWorker.js` that caches build files.
----
 
 ## Notes
 
