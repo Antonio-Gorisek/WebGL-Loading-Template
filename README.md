@@ -12,8 +12,8 @@ It also contains an optional service worker for offline and caching build files.
 - **Loading Bar:** You can adjust the loading as you wish.
 - **Logo Placeholder:** Place your company or loading logo.
 - **Warning & Error Banner:** Displays messages to the developer:
-- `warning` → yellow, disappears automatically after 5 seconds
-- `error` → row, lasts until it is removed
+  - warning > yellow, disappears automatically after 5 seconds
+  - error > row, lasts until it is removed
 - **Google Analytics:** Measure website visits (daily, weekly, monthly) just enter your public API key
 - **Service Worker:** For caching build files and offline work (if enabled in Unity WebGL Build Settings).
 - **Mobile Support:** Automatically scales the canvas for iOS and Android devices.
